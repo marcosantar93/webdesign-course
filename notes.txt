@@ -1,0 +1,2 @@
+transition: [propiedades p.e. all background etc] [tiempo p.e. 2s .3s] [ease linear ease-in ease-out ease-in-out]
+transform: translate[X,Y](10px,50px) scale(1.1,1.1) rotate(20deg) skew(10deg,10deg)
