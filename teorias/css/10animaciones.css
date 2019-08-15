@@ -1,0 +1,36 @@
+@keyframes colores {
+  0% {
+    background: blue;
+  }
+  20% {
+    background: yellow;
+    width: 300px;
+    transform: translateY(100px);
+  }
+  40% {
+    background: red;
+    width: 400px;
+    transform: translateY(200px);
+  }
+  60% {
+    background: green;
+    width: 500px;
+    transform: translateY(300px);
+  }
+  80% {
+    background: violet;
+    width: 400px;
+    transform: translateY(200px);
+  }
+  100% {
+    background: blue;
+    width: 200px;
+  }
+}
+
+.caja {
+  width: 200px;
+  height: 200px;
+  background: blue;
+  animation: colores 6s ease infinite;
+}

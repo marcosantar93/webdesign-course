@@ -1,0 +1,75 @@
+/* SELECTOR: FILTROS QUE PERMITEN ACCEDER A LOS ELEMENTOS */
+/* SELECTOR UNIVERSAL */
+* {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+} 
+
+/* SELECTOR DE ETIQUETA */
+h1 {
+    color: blue;
+}
+/* pueden ser varias a la vez */
+h1, h2, h3 {
+    color: blue;
+}
+
+/* SELECTOR DESCENDENTE  */
+/* filtra los elementos dependiendo de quienes son sus contenedores*/
+div p {
+    font-size: 20px;
+    color:black;
+}
+
+div article p {
+    font-size: 15px;
+    color:green;
+}
+
+div p a {
+    color: coral;
+}
+
+/* SELECTOR DE CLASE  */
+.grande {
+    font-size: 28px;
+}
+
+/* SELECTOR DE ID */
+/* no se recomienda usar con css ya que no se debe repetir
+ es para buscar en el DOM con js */
+ #rojo {
+     color:red;
+ }
+
+ /* COMBINACION DE EJEMPLO*/
+ /* Todos los parrafos adentro de un article adentro de un contenedor
+ con la clase main */
+ .main article p {
+     font-size: 20px;
+ }
+
+/* SELECTOR DE HIJOS  */
+/* ya vimos selectores descendentes*/
+div p {
+    font-size: 20px;
+}
+/* que pasa si quiero seleccionar un p que este directamente
+ en un div, sin nada en medio? */
+ div > p {
+     font-size: 35px;
+     color: deeppink;
+ }
+
+ /* SELECTOR DE ATRIBUTOS */
+ /* si quiero todos los elementos que tengan el atributo X 
+ (p.e.: type, id) SIN IMPORTAR EL VALOR */
+ a[id] {
+     color:yellow;
+ }
+ /* si quiero todos los elementos que tengan el atributo X 
+ (p.e.: type, id) CON UN VALOR PARTICULAR */
+ input[type="email"] {
+     font-size: 40px;
+ }
+
+ /* Los elementos heredan y sobreescriben los atributos del padre */

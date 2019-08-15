@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <!-- iframe ( interactive frame ) incrusta una pagina web dentro de otra 
+    no todas las paginas permiten que se las renderice con iframe https://stackoverflow.com/questions/31944552/iframe-refuses-to-display
+    http server at cw.na1.hgncloud.com send some http headers to tell web browsers like Chrome to allow iframe loading of that page 
+    (https://cw.na1.hgncloud.com/crossmatch/) only from a page hosted on the same domain (cw.na1.hgncloud.com) 
+
+    no se utiliza mucho, mas que nada para agregar videos de youtube, un google-map o anuncios
+    -->
+    <iframe src="http://www.falconmasters.com/" width="500" height="500" frameborder="0"></iframe>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/7qBRkhd7838" frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13085.99031387718!2d-57.95025179999999!3d-34.91905595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a2e63ca8f832b9%3A0x17749aaf95f9ae46!2sPetit+Haus!5e0!3m2!1sen!2sar!4v1564916962984!5m2!1sen!2sar"
+        width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+    <p>
+        Lorem, ipsum dolor sit amet <span class="azul" style="color: blue">espaaaaaaan</span> consectetur adipisicing elit. Hic rem doloremque illum amet facere? Ipsum odit
+        reprehenderit sapiente nulla? Iure inventore vitae ratione obcaecati cum at molestias eveniet sit deserunt.
+    </p>
+    <!-- span sirve para modificar texto inline. Si agrego un div, al ocupar el 100% del width por defecto, genera un salto de linea-->
+</body>
+
+</html>

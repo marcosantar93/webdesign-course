@@ -1,0 +1,25 @@
+a {
+  font-size: 20px;
+  text-decoration: none;
+}
+a:link { /*link was not visited*/
+  text-decoration: none;
+  color: red;
+}
+a:visited { /*link was visited*/
+  color: aqua;
+}
+a:hover {
+  background: orange;
+  color: white;
+}
+a:focus { /*element has focus*/
+  background: forestgreen;
+}
+a:active { /*element is being activated (normally clicked)*/
+  font-weight: bold;
+}
+
+/*
+an item can be unfocused and unactive, focused but not activate and focused and activate 
+difference between active and focus https://stackoverflow.com/questions/1677990/what-is-the-difference-between-focus-and-active*/

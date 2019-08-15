@@ -1,0 +1,43 @@
+/* los fondos se pueden agregar a cualquier cosa, pero para
+que abarque el 100% tiene que estar en el body 
+puede ser 
+-color
+-imagen:
+    puede repetirse, no repetirse, en x y en y
+
+background-size: auto / 100px 100px / 100% 100% / cover / contain
+auto: por defecto, ancho y alto de la imagen
+ancho alto: especificado a mano. si solo ponemos el primero
+ el segundo se calcula automaticamente
+porcentaje: porcentaje de la superficie del padre a cubrir
+cover: cubrir todo el padre (no queda espacio en blanco)
+contain: contenerse adentro del padre, es decir, ajustarse al
+ que sea menor entre ancho y alto (puede quedar espacio en blanco)
+*/
+
+body {
+    /* background: black; */
+    /* background: #845341;  */
+    /*EXPLICITO*/
+    /* background: url('img/bg.jpg'); */
+    /* background-repeat: no-repeat; */
+    /* background-attachment: fixed; */
+    /* background-position: center center;  */
+    /*CONCISO*/
+    /* background: url('img/bg.jpg') no-repeat fixed center center; */
+    
+    /* background-size: cover; */
+
+    /* repitiendo un patron se pueden 
+    tener fondos lindos de poco tamaño*/
+    background: url('img/eight_horns.png') repeat fixed;
+
+}
+
+/* .fondo {
+    width: 600px;
+    height: 600px;
+    background: url('img/bg-small.jpg') #000 ;
+    background-repeat: no-repeat;
+    background-size: 50%;
+} */
