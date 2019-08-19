@@ -3,3 +3,5 @@ transform: translate[X,Y](10px,50px) scale(1.1,1.1) rotate(20deg) skew(10deg,10d
 
 
 normalize reinicia los estilos para que en todos los navegadores se vean iguales
+
+los archivos min.css sacan los espacios para reducir el tamanio del archivo
