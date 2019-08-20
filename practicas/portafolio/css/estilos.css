@@ -253,6 +253,7 @@ footer .redes-sociales .contenedor {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  flex-wrap: wrap;
 }
 
 footer .redes-sociales a {
@@ -263,6 +264,7 @@ footer .redes-sociales a {
   text-decoration: none;
   font-size: 40px;
   border-radius: 5px;
+  margin: 10px 15px;
 }
 
 footer .redes-sociales .facebook:hover {
@@ -279,4 +281,26 @@ footer .redes-sociales .github:hover {
 }
 footer .redes-sociales .instagram:hover {
   background: #833ab4;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 800px) {
+  header .menu {
+    text-align: center;
+  }
+
+  .main .trabajos .contenedor-trabajos .trabajo {
+    width: 46%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  header .contenedor-texto .texto .nombre {
+    font-size: 35px;
+  }
+
+  header .contenedor-texto .texto .nombre {
+    font-size: 18px;
+  }
 }
